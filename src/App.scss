@@ -1,0 +1,15 @@
+
+// @keyframes App-logo-spin {
+//   from { transform: rotate(0deg); }
+//   to { transform: rotate(360deg); }
+// }
+@mixin app () {
+  .App {
+    text-align: center;
+    background-color: red;
+  }
+  #root {
+    background: red;
+  }
+}
+@include app();
